@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Suez+One&display=swap');
+
+body {
+    background-color: #fff8d9;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    height: calc(100vh - 40px);
+    display: flex;
+}
+
+.my-content {
+    background-color: #A3CB38;
+    margin: auto;
+    text-align: center;
+    border: 5px solid #ee5253;
+    padding: 40px 50px 60px 50px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ee5253;
+    font-weight: 500;
+    font-family: 'Suez One', serif;
+    letter-spacing: .5px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #583d72;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #962d2d;
+    font-weight: 600;
+}
+
+.output {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #0c4271;
+    font-family: 'Suez One', serif;
+    font-weight: 500;
+}
+
+.input-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-wrap * {
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+#userInput {
+    height: 50px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+
+input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.w-100 {
+    margin: 6px 0;
+}
+
+button {
+    text-transform: capitalize;
+}
+
+.success {
+    color: green;
+}
+
+.failed {
+    color: red;
+}
+
+@media (max-width: 991px) {
+    .my-content {
+        padding: 30px 30px 50px 30px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 767px) {
+    .my-content {
+        padding: 30px 20px 40px 20px;
+    }
+}
